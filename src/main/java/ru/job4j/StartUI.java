@@ -4,7 +4,7 @@ public class StartUI {
     private final ConsoleInput input;
     private final Store store;
 
-    public StartUI(ConsoleInput input, Store store){
+    public StartUI(ConsoleInput input, Store store) {
         this.input = input;
         this.store = store;
     }
