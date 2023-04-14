@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class StartUI {
     @Autowired
-    private final ConsoleInput input = null;
+    private ConsoleInput input;
     @Autowired
-    private final Store store = null;
+    private Store store;
 
 
     public void add(String value) {
